@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <nav id="top">
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Harsh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="pngwing.com.png" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 70,
+        });
+    </script>
+    <hr>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="portfolio-removebg-preview (1).jpg">
+                </div>
+                <div class="about-col2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I am Harsh Kumar, a multi-talented front-end developer, web designer, and video editor, is
+                        passionate about technology and constantly stays updated with new trends through case studies. A
+                        book lover, I enjoys diving into the world of knowledge. Additionally,dedication to fitness
+                        makes me a well-rounded individual with a zest for life.</p>
+                    <hr>
+                    <p class="tab-head">Skills</p>
+                    <ul>
+                        <li id="tc">Web development: HTML, CSS, JavaScript</li>
+                        <li id="tc">Cyber security</li>
+                        <li id="tc">Python</li>
+                        <li id="tc">Strong verbal and communication skills</li>
+                    </ul>
+                    <hr>
+                    <p class="tab-head">Education</p>
+                    <ul>
+                        <li id="tc">HIGHSCHOOL-Holy Heaven Public School<br>CGPA-9.8</li>
+                        <li id="tc">INTERMEDIATE-Holy Heaven Public School<br>Percentage-85%</li>
+                        <li id="tc">GRADUATION-Ajay Kumar Garg Engineering College<br>SGPA-7</li>
+                    </ul>
+                    <hr>
+                    <p class="tab-head">Experience</p>
+                    <ul>
+                        <li id="tc">Internship at Internfort in Full Stack Developer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="project-section" id="projects">
+        <h1 class="subtitle2">Projects</h1>
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('av hd.jpeg');"></div>
+                <div class="overlay">
+                    <h3>Algorithm Visualiser</h3>
+                    <h6>Algorithm Visualizer is a web app for visualizing a bunch of different sorting algorithms Like
+                        Bubble Sort, Insertion Sort, Merge Sort etc. With the functionality of Speed Control and Array
+                        Size Control.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('amzn hd.webp');"></div>
+                <div class="overlay">
+                    <h3>Amazon Clone</h3>
+                    <h6>It is basically an amazon website homepage made with HTML and CSS.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box-content">
+                <div class="box-img" style="background-image: url('tc hd.jpg');"></div>
+                <div class="overlay">
+                    <h3>Temprature Convertor Website</h3>
+                    <h6>Temperature Converter Website Using HTML, CSS, and JavaScript that converts a location’s
+                        temperature from Celsius to Fahrenheit and vice versa. We will utilize HTML, CSS, and JavaScript
+                        to finish this temperature converter project.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <section class="contact" id="contact">
+        <h1 class="heading">Contact me</h1>
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-envelope"></i>
+                <h4>My email-</h4>
+                <p>panwarh481@gmail.com</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-phone"></i>
+                <h4>My Number-</h4>
+                <p>+917017396521</p>
+            </div>
+            <div class="icons">
+                <i class="fas fa-map-marker-alt"></i>
+                <h4>My address-</h4>
+                <p>1141,OM Vihar Colony,Shamli,India</p>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <footer>
+        <div class="footer-top">
+            <div class="icons2">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
